@@ -1,7 +1,5 @@
 FROM ruby:2.4-stretch
 
-WORKDIR /code
-
 ENV ONESIGNAL_CAPNPROTO_RELEASE_URL="https://github.com/OneSignal/capnproto-debian/releases/download/onesignal-0.6.1-1" \
     ONESIGNAL_CAPNPROTO_DEB="capnproto_0.6.1-1_amd64.deb" \
     ONESIGNAL_LIBCAPNP_DEB="libcapnp-0.6.1_0.6.1-1_amd64.deb" \
