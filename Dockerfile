@@ -12,7 +12,7 @@ RUN set -ex \
     && apt-get update \
     && apt-get install -y libssl1.0.0=1.0.2l-1~bpo8+1 libssl-dev=1.0.2l-1~bpo8+1 \
     && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
-    git curl lftp zsh vim postgresql-10 postgresql-client-10 netcat \
+    git curl lftp zsh vim zip postgresql-10 postgresql-client-10 netcat \
     && cd /tmp \
     && curl -sSLO "${ONESIGNAL_CAPNPROTO_RELEASE_URL}/${ONESIGNAL_CAPNPROTO_DEB}" \
     && curl -sSLO "${ONESIGNAL_CAPNPROTO_RELEASE_URL}/${ONESIGNAL_LIBCAPNP_DEB}" \
