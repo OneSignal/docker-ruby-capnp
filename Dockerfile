@@ -1,4 +1,4 @@
-FROM ruby:2.4-stretch
+FROM ruby:2.4.1-stretch
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV ONESIGNAL_CAPNPROTO_RELEASE_URL="https://github.com/OneSignal/capnproto-debian/releases/download/onesignal-0.6.1-1" \
